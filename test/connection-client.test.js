@@ -17,7 +17,7 @@ describe('src/connection-client.jssrc/connection-client.js', ()=>{
         }
 
         testData = {
-            auth: 'test-auth'
+           auth: 'test-auth'
         }
 
         connectionClient = new ConnectionClient(testData.auth, fakeComponents.BrokerClient)
